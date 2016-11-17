@@ -1,0 +1,4 @@
+.eot__hide ~ div:not(.file-header) {
+    display: none;
+    width: 30px;
+}

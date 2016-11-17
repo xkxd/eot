@@ -1,13 +1,14 @@
+# #eot
+Let assume, you've got a 50+ comments on your current pull request, and not every comment is automatically hidden by GitHub after your changes (because e.g. it refers to something different than the line of code it's commenting).
 
+So, instead of scrolling through every comment, this extension allows you to manually end the conversation (i.e. collapse it).
 
-# rfrshr
-A chrome extension to load a given URL with the keyboard shortcut Alt-R
+The number next to the button describes the amount of comments in current section.
 
+Also, when someone will write a comment on collapsed conversation, the extension will notify that with a beautiful **#nope** (a.k.a. _It's not over, bro!_) indicator and a danger-type button.
 
->Copyright (c) 2016 Aidan Breen
->
->Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
->
->The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
->
->THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Build on top of GitHub's [Primer CSS framework](http://primercss.io/) so it looks very _github-ish_.
+
+My first Chrome extension \O/
+
+MIT Licensed.
